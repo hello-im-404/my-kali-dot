@@ -48,6 +48,10 @@ CGO_ENABLED=1 go install github.com/projectdiscovery/katana/cmd/katana@latest
 sudo mv ~/go/bin/httpx /usr/bin/
 sudo mv ~/go/bin/katana /usr/bin/
 
+# uv(python venv)
+
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
 # just pwndbg(install ida free/pro also) 
 
 curl -qsL 'https://install.pwndbg.re' | sh -s -- -t pwndbg-gdb
