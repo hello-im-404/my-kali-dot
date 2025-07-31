@@ -23,7 +23,7 @@ echo "hello:)" >> ~/.config/404/flag.txt
 # linpeas.sh + winpeas.bat
 
 sudo mv /usr/share/peass/linpeas/linpeas.sh ~/
-sudo mv /usr/share/peass/winpeas/winPEAS.bar ~/
+sudo mv /usr/share/peass/winpeas/winPEAS.bat ~/
 
 # packets
 
