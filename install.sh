@@ -41,10 +41,6 @@ curl https://sliver.sh/install|sudo bash
 
 git clone --depth 1 https://github.com/danielmiessler/SecLists.git
 
-# zapret (unblocking YouTube/Discord for russian people)
-
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/Snowy-Fluffy/zapret.installer/refs/heads/main/installer.sh)" \n
-
 # for web-pentesting
 
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
