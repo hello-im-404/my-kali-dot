@@ -31,7 +31,7 @@ sudo apt update && sudo apt install -y neovim subfinder gimp nuclei screenfetch 
 
 # havoc
 
-git clone https://github.com/HavocFramework/Havoc.git
+git clone https://github.com/HavocFramework/Havoc.git ~/
 
 # sliver
 
@@ -39,9 +39,9 @@ curl https://sliver.sh/install|sudo bash
 
 # seclists
 
-git clone --depth 1 https://github.com/danielmiessler/SecLists.git
+git clone --depth 1 https://github.com/danielmiessler/SecLists.git ~/
 
-# for web-pentesting
+# web-pentesting
 
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 CGO_ENABLED=1 go install github.com/projectdiscovery/katana/cmd/katana@latest
